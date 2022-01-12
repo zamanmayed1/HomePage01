@@ -1,0 +1,368 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500&family=Rubik&family=Spline+Sans&display=swap");
+body {
+  background: #f3f1ff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+/* top Student style */
+.students {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.student {
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.student img {
+  width: 58px;
+  height: 58px;
+  margin-right: 15px;
+}
+
+.top-section {
+  width: 50%;
+  background-color: white;
+  height: 730px;
+  padding: 10px 25px;
+  margin: auto;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+.top-students {
+  height: 270px;
+  width: 90%;
+
+  margin: auto;
+}
+/* Students */
+.part-title {
+  color: blue;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.top-blogs {
+  height: 320px;
+  width: 90%;
+  margin: auto;
+}
+
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+.blog {
+  display: flex;
+}
+
+.text {
+  margin-left: 15px;
+}
+.text h2 {
+  width: 200px;
+  height: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+.text p {
+  width: 200px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+.line {
+  background-color: black;
+  height: 0.05em;
+}
+.red {
+  color: red;
+  font-style: italic;
+}
+.red1 {
+  color: red;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3px;
+  line-height: 17px;
+}
+.autoename {
+  color: blue;
+}
+/* Style Courses */
+
+.latest-courses {
+  width: 50%;
+  height: 380px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #ffffffff;
+  display: grid;
+  justify-content: space-around;
+  padding: 10px 25px;
+}
+.courses {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+.course {
+  height: 269px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  margin-right: 10px;
+}
+.course img {
+  width: 224px;
+  height: 104px;
+  margin-left: 12px;
+}
+.coursetext h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.0336px;
+  padding: 0px 4px;
+  height: 50px;
+}
+.star {
+  color: #ffc014;
+  font-size: 12px;
+  justify-content: space-around;
+}
+#gray {
+  color: #aeaeae;
+  font-size: 12px;
+}
+.stars {
+  width: 75px;
+  display: flex;
+  margin-right: 10px;
+}
+.time {
+  height: 29.382596969604492px;
+  width: 94.82565307617188px;
+  border-radius: 14.691296577453613px;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.time i {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.info {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+  align-items: center;
+}
+.course:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/*--------------------- Mobile Responsive
+------------------------------------ */
+@media (max-width: 480px) {
+  /* Fonts */
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500&family=Rubik&family=Spline+Sans&display=swap");
+  body {
+    background: #f3f1ff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .students {
+    display: grid;
+    grid-template-columns: repeat(1, 1.5fr);
+    grid-gap: 10px;
+  }
+  .student {
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .student img {
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+  }
+
+  .top-section {
+    width: 100%;
+    background-color: white;
+    height: 2330px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+  }
+
+  .top-students {
+    height: 270px;
+    width: 90%;
+    margin: auto;
+  }
+  .part-title {
+    color: blue;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  #topblo {
+    margin-top: 250px;
+  }
+  .line {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: -30px;
+  }
+  /* Students */
+  .top-blogs {
+    height: 320px;
+    width: 100%;
+  }
+  .blog {
+    display: block;
+  }
+
+  .blog img {
+    width: 50%;
+    height: 100px;
+  }
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2em;
+  }
+
+  .text {
+    margin-left: 35px;
+  }
+  .text h2 {
+    width: 180px;
+    height: 80px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+  .text p {
+    width: 100%;
+    height: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6px;
+  }
+  /* Course Style */
+  .latest-courses {
+    width: 100%;
+    height: 1280px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #ffffffff;
+    display: grid;
+    justify-content: space-between;
+  }
+  .courses {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1.5fr);
+    justify-items: end;
+  }
+  .course {
+    height: 369px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    margin-bottom: 35px;
+  }
+  .course img {
+    width: 100%;
+    height: 154px;
+  }
+  .coursetext h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    padding: 0px 4px;
+    height: 50px;
+  }
+  .star {
+    color: #ffc014;
+    font-size: 12px;
+  }
+  #gray {
+    color: #aeaeae;
+    font-size: 12px;
+  }
+  .stars {
+    width: 75px;
+    display: flex;
+    margin-right: 10px;
+  }
+  .time {
+    height: 29.382596969604492px;
+    width: 94.82565307617188px;
+    border-radius: 14.691296577453613px;
+    background: #ffe4e8;
+    border-radius: 14.6913px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .time i {
+    font-size: 12px;
+    margin-right: 3px;
+  }
+
+  .info {
+    display: flex;
+    font-size: 11px;
+    margin-top: 35px;
+  }
+  .course:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+}

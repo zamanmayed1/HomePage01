@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f1ff;
+}
+
+header {
+  width: 100%;
+  height: 94px;
+  background: #562eff;
+}
+nav {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+span img {
+  width: 40.42px;
+  height: 51px;
+}
+span {
+  display: flex;
+}
+span h3 {
+  width: 40.42px;
+  height: 50 px;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+span a {
+  width: 48px;
+  height: 24px;
+  margin-right: 25px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+.navi {
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 870px;
+  margin: auto;
+  height: 640px;
+  margin-top: 20px;
+  padding: 10px 29px;
+}
+
+.player-1 {
+  display: flex;
+  align-items: center;
+}
+.player-1 img {
+  width: 56px;
+  height: 56px;
+}
+.player-1 h3 {
+  margin-left: 15px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+.hr {
+  margin-top: 25px;
+  background-color: black;
+}
+.blog-1 {
+  display: flex;
+}
+.blog-1 img {
+  width: 177px;
+  height: 117px;
+}
+.blog-1 h3 {
+  margin-left: 15px;
+  width: 164px;
+  font-size: 18px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 45px;
+}
+.lastblog {
+  width: 122px;
+  height: 68px;
+  font-size: 20px;
+}
+
+#sectitle {
+  color: #562eff;
+}
+
+.letestcourses {
+  margin: auto;
+  width: 870px;
+  height: 270px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 50px 29px;
+}
+.course-1 {
+  height: 269px;
+  width: 226px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 18px;
+  padding: 2px 3px;
+}
+.course img {
+  width: 224px;
+  height: 104px;
+  justify-content: center;
+  align-items: center;
+}
+.course {
+  justify-content: space-between;
+  display: flex;
+}
